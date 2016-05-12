@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "SmartEditor"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SmartEditor."
+  s.summary          = "UI for edit content."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SmartEditor"
+  s.homepage         = "https://github.com/montionugera/SmartEditor"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Pasit Nusso" => "montionugera@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SmartEditor.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/montionugera/SmartEditor.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/montionugera
 
   s.ios.deployment_target = '8.0'
 
