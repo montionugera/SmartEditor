@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SmartEditor_Example' do
+  pod 'SmartEditor', :path => '../'
+
+  target 'SmartEditor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
