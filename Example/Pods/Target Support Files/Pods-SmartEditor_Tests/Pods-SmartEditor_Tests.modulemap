@@ -1,0 +1,6 @@
+framework module Pods_SmartEditor_Tests {
+  umbrella header "Pods-SmartEditor_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

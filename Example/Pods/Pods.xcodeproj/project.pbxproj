@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B73B8D2391069A089555908E42520C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		212B174C90B14958831281D444F4FBDF /* Pods-SmartEditor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7544DED6BA8A7FAF5B37CB003C12EC7 /* Pods-SmartEditor_Example-dummy.m */; };
+		2587FC97A3339F11A2AA02FF6EE1E77C /* RichTextUTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79CAFEF8BEE06CCE5FBC64F480A9E2 /* RichTextUTCell.swift */; };
+		49297579BC2FA26CA0361759526EC390 /* Pods-SmartEditor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62803A720F2D50F2EE7F11588074216D /* Pods-SmartEditor_Tests-dummy.m */; };
+		56E54CC4B925703D73CC3A3422BA8801 /* Pods-SmartEditor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 919BA8A41CC53CC5964873E505C501E1 /* Pods-SmartEditor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7051A7B2B86C7946C06AAAF02C325643 /* Pods-SmartEditor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BC6EDD856DD32E2A9A537E2D9DF08D1 /* Pods-SmartEditor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		721C91A80B2390EC44913CC306B2F192 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		86B86CE2678020D5D8D6633CD111119E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		AFBD71895A5315C10ED164A21EBADF55 /* SmartEditor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FE014682FD8EADD1A2456E97CD2BE7E /* SmartEditor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C53BFCF2C51B94E8697C819CB8F5D75A /* RichTextEditUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED2725BFB653EC37D02C098621E2BAC /* RichTextEditUIView.swift */; };
+		D3AC21959DEF6DF32074A08022C8486A /* SmartEditor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B914CDEFC02FD202F9D0B12DE58E0EC /* SmartEditor-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F4ED8C7712B9617EEF0A2B76110542F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EA8D93A69B22BA586CE4ADB31161329;
+			remoteInfo = SmartEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045E530C371497B09FA82737D4B7626B /* Pods-SmartEditor_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartEditor_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0E79CAFEF8BEE06CCE5FBC64F480A9E2 /* RichTextUTCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RichTextUTCell.swift; sourceTree = "<group>"; };
+		17DE2E99AE3A723CD4A82B5C15E8F39B /* SmartEditor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmartEditor-prefix.pch"; sourceTree = "<group>"; };
+		1806400EB8B94CABC8A8FEDC89ABE953 /* Pods-SmartEditor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SmartEditor_Example.modulemap"; sourceTree = "<group>"; };
+		201CC2850F90A59C3A6DA48E8D29948D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30B59059CF180C216DA5E8C90B83F5B3 /* SmartEditor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SmartEditor.modulemap; sourceTree = "<group>"; };
+		51D85D208192BD795CC5AADB0EF511A4 /* Pods_SmartEditor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartEditor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		546A369099DCA47E562A4A5EA775203F /* SmartEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmartEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		556A21BF523B3C0CB0EE229DB078B17A /* Pods-SmartEditor_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartEditor_Tests-resources.sh"; sourceTree = "<group>"; };
+		5F5FCC4932DFFA62A2CCB1F92D372419 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62803A720F2D50F2EE7F11588074216D /* Pods-SmartEditor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartEditor_Tests-dummy.m"; sourceTree = "<group>"; };
+		63BBE959A86279B9E392AD50632383CF /* Pods-SmartEditor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartEditor_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		76BC73397B4172A8A3CAFD60ED3190B3 /* Pods-SmartEditor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SmartEditor_Tests.modulemap"; sourceTree = "<group>"; };
+		7FE014682FD8EADD1A2456E97CD2BE7E /* SmartEditor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmartEditor-umbrella.h"; sourceTree = "<group>"; };
+		8B914CDEFC02FD202F9D0B12DE58E0EC /* SmartEditor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SmartEditor-dummy.m"; sourceTree = "<group>"; };
+		8BC6EDD856DD32E2A9A537E2D9DF08D1 /* Pods-SmartEditor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartEditor_Tests-umbrella.h"; sourceTree = "<group>"; };
+		919BA8A41CC53CC5964873E505C501E1 /* Pods-SmartEditor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartEditor_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		991302C1D9D3D3128F08D812239BAD26 /* Pods-SmartEditor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartEditor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C1D9973C61B6875C4449A4DC51BDE86 /* Pods-SmartEditor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartEditor_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9ED2725BFB653EC37D02C098621E2BAC /* RichTextEditUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RichTextEditUIView.swift; sourceTree = "<group>"; };
+		B47833511C72BEF223D32539584128DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B52BC64314028631AED72B3D8864AA54 /* Pods-SmartEditor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartEditor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B82FCB1FFEE7FF24012D5085E5DA359B /* Pods-SmartEditor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartEditor_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BD2FF282C3D9791C13C830E82D2509BE /* Pods-SmartEditor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartEditor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C57E280797B2189D4E6F101BDDC7510C /* Pods-SmartEditor_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartEditor_Example-resources.sh"; sourceTree = "<group>"; };
+		C93A6BA48EA52A565DD49D9709C4F4C1 /* Pods-SmartEditor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartEditor_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D39EF1EA55DD01EB9CDCF690C4E3156F /* Pods-SmartEditor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartEditor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7544DED6BA8A7FAF5B37CB003C12EC7 /* Pods-SmartEditor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartEditor_Example-dummy.m"; sourceTree = "<group>"; };
+		EA4C70281A190CC849B4705243C52418 /* Pods-SmartEditor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartEditor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EBB8C4A026E470F05364961D0D134DCC /* SmartEditor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmartEditor.xcconfig; sourceTree = "<group>"; };
+		FCD538510872928C78B17904950171A3 /* Pods_SmartEditor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartEditor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32F4BFC9D25B6383E569EFA2C8196474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B73B8D2391069A089555908E42520C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C724722739864AF4DFCD528EA6934D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B86CE2678020D5D8D6633CD111119E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E2BE75E418506ED3FF74632CA1A396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721C91A80B2390EC44913CC306B2F192 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		422B8BB4302E876EAEE8233C67E2C91C /* SmartEditor */ = {
+			isa = PBXGroup;
+			children = (
+				CCC81B22E9B877A729D773BBB93D34C3 /* Classes */,
+			);
+			path = SmartEditor;
+			sourceTree = "<group>";
+		};
+		4D4107BE16BA862C94B285025E69133D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCD538510872928C78B17904950171A3 /* Pods_SmartEditor_Example.framework */,
+				51D85D208192BD795CC5AADB0EF511A4 /* Pods_SmartEditor_Tests.framework */,
+				546A369099DCA47E562A4A5EA775203F /* SmartEditor.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		772CC50E4392B556F03617040E7DACDA /* Pods-SmartEditor_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B47833511C72BEF223D32539584128DB /* Info.plist */,
+				1806400EB8B94CABC8A8FEDC89ABE953 /* Pods-SmartEditor_Example.modulemap */,
+				BD2FF282C3D9791C13C830E82D2509BE /* Pods-SmartEditor_Example-acknowledgements.markdown */,
+				EA4C70281A190CC849B4705243C52418 /* Pods-SmartEditor_Example-acknowledgements.plist */,
+				E7544DED6BA8A7FAF5B37CB003C12EC7 /* Pods-SmartEditor_Example-dummy.m */,
+				B82FCB1FFEE7FF24012D5085E5DA359B /* Pods-SmartEditor_Example-frameworks.sh */,
+				C57E280797B2189D4E6F101BDDC7510C /* Pods-SmartEditor_Example-resources.sh */,
+				919BA8A41CC53CC5964873E505C501E1 /* Pods-SmartEditor_Example-umbrella.h */,
+				C93A6BA48EA52A565DD49D9709C4F4C1 /* Pods-SmartEditor_Example.debug.xcconfig */,
+				9C1D9973C61B6875C4449A4DC51BDE86 /* Pods-SmartEditor_Example.release.xcconfig */,
+			);
+			name = "Pods-SmartEditor_Example";
+			path = "Target Support Files/Pods-SmartEditor_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9AEA9B592173F71B13C0311115DB39F8 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4D4107BE16BA862C94B285025E69133D /* Products */,
+				CE12B318EB1039033A69B90C2A504837 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9AEA9B592173F71B13C0311115DB39F8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDD6BF36D2D101AA5923B11D440E4CA6 /* SmartEditor */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5C8FB9FC822B325B9CBB45AEB3C3BD9 /* Pods-SmartEditor_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				201CC2850F90A59C3A6DA48E8D29948D /* Info.plist */,
+				76BC73397B4172A8A3CAFD60ED3190B3 /* Pods-SmartEditor_Tests.modulemap */,
+				D39EF1EA55DD01EB9CDCF690C4E3156F /* Pods-SmartEditor_Tests-acknowledgements.markdown */,
+				991302C1D9D3D3128F08D812239BAD26 /* Pods-SmartEditor_Tests-acknowledgements.plist */,
+				62803A720F2D50F2EE7F11588074216D /* Pods-SmartEditor_Tests-dummy.m */,
+				045E530C371497B09FA82737D4B7626B /* Pods-SmartEditor_Tests-frameworks.sh */,
+				556A21BF523B3C0CB0EE229DB078B17A /* Pods-SmartEditor_Tests-resources.sh */,
+				8BC6EDD856DD32E2A9A537E2D9DF08D1 /* Pods-SmartEditor_Tests-umbrella.h */,
+				B52BC64314028631AED72B3D8864AA54 /* Pods-SmartEditor_Tests.debug.xcconfig */,
+				63BBE959A86279B9E392AD50632383CF /* Pods-SmartEditor_Tests.release.xcconfig */,
+			);
+			name = "Pods-SmartEditor_Tests";
+			path = "Target Support Files/Pods-SmartEditor_Tests";
+			sourceTree = "<group>";
+		};
+		CCC81B22E9B877A729D773BBB93D34C3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9ED2725BFB653EC37D02C098621E2BAC /* RichTextEditUIView.swift */,
+				0E79CAFEF8BEE06CCE5FBC64F480A9E2 /* RichTextUTCell.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CE12B318EB1039033A69B90C2A504837 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				772CC50E4392B556F03617040E7DACDA /* Pods-SmartEditor_Example */,
+				C5C8FB9FC822B325B9CBB45AEB3C3BD9 /* Pods-SmartEditor_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DDD6BF36D2D101AA5923B11D440E4CA6 /* SmartEditor */ = {
+			isa = PBXGroup;
+			children = (
+				422B8BB4302E876EAEE8233C67E2C91C /* SmartEditor */,
+				FBD2B9A87F90192C35B4D641C427323D /* Support Files */,
+			);
+			name = SmartEditor;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FBD2B9A87F90192C35B4D641C427323D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F5FCC4932DFFA62A2CCB1F92D372419 /* Info.plist */,
+				30B59059CF180C216DA5E8C90B83F5B3 /* SmartEditor.modulemap */,
+				EBB8C4A026E470F05364961D0D134DCC /* SmartEditor.xcconfig */,
+				8B914CDEFC02FD202F9D0B12DE58E0EC /* SmartEditor-dummy.m */,
+				17DE2E99AE3A723CD4A82B5C15E8F39B /* SmartEditor-prefix.pch */,
+				7FE014682FD8EADD1A2456E97CD2BE7E /* SmartEditor-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SmartEditor";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37899637D7DD6A17E76AFA880DDFC95D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E54CC4B925703D73CC3A3422BA8801 /* Pods-SmartEditor_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1D5F28A5B9CCA411CE6914294EB51C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7051A7B2B86C7946C06AAAF02C325643 /* Pods-SmartEditor_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B214023BDB54393B60844A11E290C59C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFBD71895A5315C10ED164A21EBADF55 /* SmartEditor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1EA8D93A69B22BA586CE4ADB31161329 /* SmartEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53EEA6BCA0430D12E32B312A73AEE2E1 /* Build configuration list for PBXNativeTarget "SmartEditor" */;
+			buildPhases = (
+				1FDE527871C0C8B7C147C1AEBE383BA2 /* Sources */,
+				32F4BFC9D25B6383E569EFA2C8196474 /* Frameworks */,
+				B214023BDB54393B60844A11E290C59C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartEditor;
+			productName = SmartEditor;
+			productReference = 546A369099DCA47E562A4A5EA775203F /* SmartEditor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B32775460B03FE4B33BA6A24E9AB6F9 /* Pods-SmartEditor_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4272B7740B9D7948B735674651A695F3 /* Build configuration list for PBXNativeTarget "Pods-SmartEditor_Example" */;
+			buildPhases = (
+				DCA69EDDF067F6CF69FB34C50E183F8C /* Sources */,
+				4C724722739864AF4DFCD528EA6934D8 /* Frameworks */,
+				37899637D7DD6A17E76AFA880DDFC95D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				067A75096ECBBAA422F7CF4620E146C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartEditor_Example";
+			productName = "Pods-SmartEditor_Example";
+			productReference = FCD538510872928C78B17904950171A3 /* Pods_SmartEditor_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC84FDED440C05E0959F50315E0B206B /* Pods-SmartEditor_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 672E110CD755DFB27AEDA710F5F74260 /* Build configuration list for PBXNativeTarget "Pods-SmartEditor_Tests" */;
+			buildPhases = (
+				2D161D41E9706E5C99A1C2268D57016F /* Sources */,
+				B9E2BE75E418506ED3FF74632CA1A396 /* Frameworks */,
+				6B1D5F28A5B9CCA411CE6914294EB51C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SmartEditor_Tests";
+			productName = "Pods-SmartEditor_Tests";
+			productReference = 51D85D208192BD795CC5AADB0EF511A4 /* Pods_SmartEditor_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4D4107BE16BA862C94B285025E69133D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B32775460B03FE4B33BA6A24E9AB6F9 /* Pods-SmartEditor_Example */,
+				CC84FDED440C05E0959F50315E0B206B /* Pods-SmartEditor_Tests */,
+				1EA8D93A69B22BA586CE4ADB31161329 /* SmartEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FDE527871C0C8B7C147C1AEBE383BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53BFCF2C51B94E8697C819CB8F5D75A /* RichTextEditUIView.swift in Sources */,
+				2587FC97A3339F11A2AA02FF6EE1E77C /* RichTextUTCell.swift in Sources */,
+				D3AC21959DEF6DF32074A08022C8486A /* SmartEditor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D161D41E9706E5C99A1C2268D57016F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49297579BC2FA26CA0361759526EC390 /* Pods-SmartEditor_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA69EDDF067F6CF69FB34C50E183F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212B174C90B14958831281D444F4FBDF /* Pods-SmartEditor_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		067A75096ECBBAA422F7CF4620E146C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmartEditor;
+			target = 1EA8D93A69B22BA586CE4ADB31161329 /* SmartEditor */;
+			targetProxy = 9F4ED8C7712B9617EEF0A2B76110542F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F3BAC366396F8F3C2334141BF93616D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B52BC64314028631AED72B3D8864AA54 /* Pods-SmartEditor_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartEditor_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartEditor_Tests/Pods-SmartEditor_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartEditor_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		489A48695E34BA77D84ED432E8710405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB8C4A026E470F05364961D0D134DCC /* SmartEditor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SmartEditor/SmartEditor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmartEditor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SmartEditor/SmartEditor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SmartEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		497A48BA1CC64FA96AFDD88CFD04D645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C1D9973C61B6875C4449A4DC51BDE86 /* Pods-SmartEditor_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartEditor_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartEditor_Example/Pods-SmartEditor_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartEditor_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52A3A7D76F9E5D5D75C7FD7607F5410E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C93A6BA48EA52A565DD49D9709C4F4C1 /* Pods-SmartEditor_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartEditor_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartEditor_Example/Pods-SmartEditor_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartEditor_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7CAD6F0024606003747CE0DFE723521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB8C4A026E470F05364961D0D134DCC /* SmartEditor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SmartEditor/SmartEditor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmartEditor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SmartEditor/SmartEditor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SmartEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FD7557DAAD18B88566399FFC03A0B044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63BBE959A86279B9E392AD50632383CF /* Pods-SmartEditor_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartEditor_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartEditor_Tests/Pods-SmartEditor_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartEditor_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4272B7740B9D7948B735674651A695F3 /* Build configuration list for PBXNativeTarget "Pods-SmartEditor_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A3A7D76F9E5D5D75C7FD7607F5410E /* Debug */,
+				497A48BA1CC64FA96AFDD88CFD04D645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53EEA6BCA0430D12E32B312A73AEE2E1 /* Build configuration list for PBXNativeTarget "SmartEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CAD6F0024606003747CE0DFE723521 /* Debug */,
+				489A48695E34BA77D84ED432E8710405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		672E110CD755DFB27AEDA710F5F74260 /* Build configuration list for PBXNativeTarget "Pods-SmartEditor_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3BAC366396F8F3C2334141BF93616D /* Debug */,
+				FD7557DAAD18B88566399FFC03A0B044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -7,8 +7,8 @@
 //
 
 import UIKit
-
-class ViewController: UIViewController {
+import SmartEditor
+class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSource{
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +19,14 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 30
+    }
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = RichTextUTCell()
+        cell.textLabel?.text = ":D:D:D:D:D"
+        print("cel for row")
+        return cell
+    }
 }
 

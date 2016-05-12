@@ -1,0 +1,16 @@
+PODS:
+  - SmartEditor (0.1.0)
+
+DEPENDENCIES:
+  - SmartEditor (from `../`)
+
+EXTERNAL SOURCES:
+  SmartEditor:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SmartEditor: 9e3e065511e532c7afc18f5e46d4705cbdf22d10
+
+PODFILE CHECKSUM: ee3766a4eeb1491e28e1a04718f484630f0f5a55
+
+COCOAPODS: 1.0.0
